@@ -1,0 +1,11 @@
+/* ... (existing CSS styles) */
+
+.search-container {
+    margin-bottom: 20px;
+  }
+  
+  #searchInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }

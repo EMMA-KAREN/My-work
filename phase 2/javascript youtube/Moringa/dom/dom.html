@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example</title>
+    <script src="./dom.js"></script>
+</head>
+<body>
+    <section>
+        <h1 id="myHeader">This is the header</h1>
+    </section>
+
+    <script>
+        const headerElement = document.getElementById('myHeader');
+        headerElement.textContent = 'Modified Header';
+    </script>
+
+    <div>
+        <h5>
+            register
+        </h5>
+      </div>
+      <form id="myform">
+        <input id="email"type="email" placeholder="email"/>
+        <input id="name"type="text" placeholder="name"/>
+        <input id="age"type="number" placeholder="age"/>
+        <button type = "submit">sbmit</button>
+      </form>
+     
+</body>
+</html>

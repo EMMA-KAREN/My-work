@@ -1,0 +1,65 @@
+{
+    "groomingServices": [
+      {
+        "id": 1,
+        "name": "Full Grooming Package",
+        "description": "Includes bath, cut, nail trimming, and ear cleaning."
+      },
+      {
+        "id": 2,
+        "name": "Bath & Brush",
+        "description": "A bath and brush session for a fresh, clean pet."
+      },
+      {
+        "id": 3,
+        "name": "Nail Trimming",
+        "description": "A quick nail trim to keep your pet's paws healthy."
+      },
+      {
+        "id": 4,
+        "name": "Fur De-Shedding",
+        "description": "A special treatment to reduce shedding and keep your pet’s fur soft."
+      }
+    ],
+    "servicePackages": [
+      {
+        "id": 1,
+        "name": "Basic Grooming Package",
+        "services": ["Bath & Brush", "Nail Trimming"],
+        "price": "$30"
+      },
+      {
+        "id": 2,
+        "name": "Deluxe Grooming Package",
+        "services": ["Full Grooming Package", "Fur De-Shedding"],
+        "price": "$60"
+      },
+      {
+        "id": 3,
+        "name": "Premium Grooming Package",
+        "services": ["Full Grooming Package", "Fur De-Shedding", "Nail Trimming"],
+        "price": "$80"
+      }
+    ],
+    "groomers": [
+      {
+        "id": 1,
+        "name": "Sarah",
+        "experience": "5 years",
+        "specialty": "Bathing and Nail Trimming"
+      },
+      {
+        "id": 2,
+        "name": "John",
+        "experience": "8 years",
+        "specialty": "Full Grooming and Fur De-Shedding"
+      },
+      {
+        "id": 3,
+        "name": "Emily",
+        "experience": "3 years",
+        "specialty": "Puppy Grooming and Baths"
+      }
+    ]
+  }
+  

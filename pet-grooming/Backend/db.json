@@ -1,0 +1,1151 @@
+{
+  "owners": [
+    {
+      "id": "1",
+      "name": "John DoeBB",
+      "email": "john@gmail.com",
+      "password": "12345",
+      "role": "owner",
+      "notifications": [
+        {
+          "id": 301,
+          "message": "John Doe has submitted pet details for Buddy.",
+          "read": false
+        },
+        {
+          "id": 1732205551592,
+          "message": "Your groomer Jane Smith has accepted your request. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732220820013,
+          "message": "Request sent to groomer Jane Smith.",
+          "read": false
+        },
+        {
+          "id": 1732262058191,
+          "message": "Request sent to groomer Jane Smith.",
+          "read": false
+        },
+        {
+          "id": 1732439377325,
+          "message": "Your request has been accepted by Mike Johnson. Please provide pet details.",
+          "read": false
+        }
+      ],
+      "requests": [
+        {
+          "id": 201,
+          "groomerId": 1,
+          "groomerName": "Jane Smith",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "b",
+            "petAge": "",
+            "services": "",
+            "petImage": "",
+            "date": "",
+            "appointmentType": ""
+          }
+        },
+        {
+          "id": 1,
+          "ownerId": 1,
+          "groomerName": "Jane Smith",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "Bella",
+            "petAge": "3",
+            "services": "nail trimming",
+            "petImage": "n/a",
+            "date": "2024-11-21",
+            "appointmentType": "indoor"
+          }
+        },
+        {
+          "id": 1732262058152,
+          "ownerId": "1",
+          "ownerName": "John Doe",
+          "groomerId": "1",
+          "groomerName": "Jane Smith",
+          "status": "pending",
+          "petDetails": {}
+        },
+        {
+          "id": 1732147139251,
+          "ownerId": "1",
+          "ownerName": "John Doe",
+          "status": "accepted",
+          "petDetails": null
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Magg",
+      "email": "m@gmail.com",
+      "password": "m",
+      "role": "owner",
+      "notifications": [
+        {
+          "id": 1732252960676,
+          "message": "Request accepted by groomer Mike Johnson. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732253980580,
+          "message": "Request sent to groomer Sarah Connor.",
+          "read": false
+        },
+        {
+          "id": 1732254059162,
+          "message": "Request accepted by groomer Sarah Connor. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732254690038,
+          "message": "Request accepted by groomer Sarah Connor. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732255445229,
+          "message": "Request sent to groomer Sarah Connor.",
+          "read": false
+        },
+        {
+          "id": 1732255489538,
+          "message": "Request accepted by groomer Sarah Connor. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732255678723,
+          "message": "Request sent to groomer Sarah Connor.",
+          "read": false
+        },
+        {
+          "id": 1732255786794,
+          "message": "Request accepted by groomer Sarah Connor. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732255790419,
+          "message": "Request accepted by groomer Sarah Connor. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732255796445,
+          "message": "Request accepted by groomer Sarah Connor. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732255798635,
+          "message": "Request accepted by groomer Sarah Connor. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732436797353,
+          "message": "Request sent to groomer Mike Johnson.",
+          "read": false
+        },
+        {
+          "id": 1732439187441,
+          "message": "Your request has been accepted by Mike Johnson. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732439304824,
+          "message": "Looking forward to meeting Luna!",
+          "read": false
+        }
+      ],
+      "requests": [
+        {
+          "id": 101,
+          "ownerId": 2,
+          "groomerId": 1,
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "presi",
+            "petAge": "3",
+            "services": "nail trimming",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/236x/b6/67/14/b667143861ed1542248dcf48b793ffc8.jpg",
+            "date": "2024-11-23",
+            "appointmentType": "indoor",
+            "address": "nairobi street"
+          }
+        },
+        {
+          "id": 1732255445167,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "3",
+          "groomerName": "Sarah Connor",
+          "status": "pending",
+          "petDetails": {}
+        },
+        {
+          "id": 1732255678656,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "3",
+          "groomerName": "Sarah Connor",
+          "status": "accepted",
+          "petDetails": {}
+        },
+        {
+          "id": 1732436797293,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "2",
+          "groomerName": "Mike Johnson",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "Luna",
+            "petAge": "3",
+            "services": "nail trimming",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/236x/b6/67/14/b667143861ed1542248dcf48b793ffc8.jpg",
+            "date": "2024-11-24",
+            "appointmentType": "indoor",
+            "address": "nairobi street",
+            "timeSlot": ""
+          }
+        },
+        {
+          "id": 1732436797293,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "2",
+          "groomerName": "Mike Johnson",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "Luna",
+            "petAge": "3",
+            "services": "nail trimming",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/236x/b6/67/14/b667143861ed1542248dcf48b793ffc8.jpg",
+            "date": "2024-11-24",
+            "appointmentType": "indoor",
+            "address": "nairobi street",
+            "timeSlot": ""
+          }
+        }
+      ],
+      "profile_pic": "https://i.pinimg.com/enabled_lo_mid/236x/4e/68/a0/4e68a025e2373349bd1dc291a9b0acbc.jpg"
+    },
+    {
+      "id": "95f3",
+      "name": "joel vensa",
+      "email": "joel@gmail.com",
+      "password": "12345",
+      "role": "owner",
+      "notifications": [
+        {
+          "id": 1732442282006,
+          "message": "Request sent to groomer Amanda william.",
+          "read": false
+        },
+        {
+          "id": 1732442298401,
+          "message": "Your request has been accepted by Amanda william. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732442454090,
+          "message": "Looking forward to meeting bengal!",
+          "read": false
+        },
+        {
+          "id": 1732443305582,
+          "message": "Request sent to groomer Amanda william.",
+          "read": false
+        },
+        {
+          "id": 1732443335889,
+          "message": "Your request has been accepted by Amanda william. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732443546558,
+          "message": "Looking forward to meeting zola!",
+          "read": false
+        },
+        {
+          "id": 1732479656606,
+          "message": "Request sent to groomer Amanda william.",
+          "read": false
+        },
+        {
+          "id": 1732479682572,
+          "message": "Your request has been accepted by Amanda william. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732484356313,
+          "message": "Request sent to groomer Amanda william.",
+          "read": false
+        },
+        {
+          "id": 1732484522464,
+          "message": "Looking forward to meeting shek!",
+          "read": false
+        },
+        {
+          "id": 1732484828083,
+          "message": "Your request has been accepted by Amanda william. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732485159401,
+          "message": "Your request has been accepted by Amanda william. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732485169186,
+          "message": "Your request has been accepted by Amanda william. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732485282674,
+          "message": "Looking forward to meeting ger!",
+          "read": false
+        },
+        {
+          "id": 1732523299009,
+          "message": "Request sent to groomer Jane Smith.",
+          "read": false
+        },
+        {
+          "id": 1732523324388,
+          "message": "Your request has been accepted by Jane Smith. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732523391682,
+          "message": "Looking forward to meeting Luna!",
+          "read": false
+        }
+      ],
+      "requests": [
+        {
+          "id": 1732442281987,
+          "ownerId": "95f3",
+          "ownerName": "joel vens",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "bengal",
+            "petAge": "4",
+            "services": "body wash",
+            "petImage": "https://i.pinimg.com/236x/ba/5c/35/ba5c35457d32ca14a8fbfb88a11872ff.jpg",
+            "date": "2024-11-25",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "12noon"
+          }
+        },
+        {
+          "id": 1732442281987,
+          "ownerId": "95f3",
+          "ownerName": "joel vens",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "bengal",
+            "petAge": "4",
+            "services": "body wash",
+            "petImage": "https://i.pinimg.com/236x/ba/5c/35/ba5c35457d32ca14a8fbfb88a11872ff.jpg",
+            "date": "2024-11-25",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "12noon"
+          }
+        },
+        {
+          "id": 1732443305566,
+          "ownerId": "95f3",
+          "ownerName": "joel vens",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "zola",
+            "petAge": "2",
+            "services": "hair brush and wash",
+            "petImage": "https://i.pinimg.com/236x/8a/c6/0c/8ac60cbb2f3a2dd48587fc2dc5d15faa.jpg",
+            "date": "2024-11-26",
+            "appointmentType": "indoor",
+            "address": "webuye",
+            "timeSlot": ""
+          }
+        },
+        {
+          "id": 1732443305566,
+          "ownerId": "95f3",
+          "ownerName": "joel vens",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "zola",
+            "petAge": "2",
+            "services": "hair brush and wash",
+            "petImage": "https://i.pinimg.com/236x/8a/c6/0c/8ac60cbb2f3a2dd48587fc2dc5d15faa.jpg",
+            "date": "2024-11-26",
+            "appointmentType": "indoor",
+            "address": "webuye",
+            "timeSlot": ""
+          }
+        },
+        {
+          "id": 1732479656551,
+          "ownerId": "95f3",
+          "ownerName": "joel vens",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "shek",
+            "petAge": "6",
+            "services": "mediacal check up",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/736x/b2/e9/f4/b2e9f449c1c5f8a29e31cafb8671c8b2.jpg",
+            "date": "2024-11-25",
+            "appointmentType": "indoor",
+            "address": "0100",
+            "timeSlot": ""
+          }
+        },
+        {
+          "id": 1732479656551,
+          "ownerId": "95f3",
+          "ownerName": "joel vens",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "shek",
+            "petAge": "6",
+            "services": "mediacal check up",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/736x/b2/e9/f4/b2e9f449c1c5f8a29e31cafb8671c8b2.jpg",
+            "date": "2024-11-25",
+            "appointmentType": "indoor",
+            "address": "0100",
+            "timeSlot": ""
+          }
+        },
+        {
+          "id": 1732484356289,
+          "ownerId": "95f3",
+          "ownerName": "joel vens",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "ger",
+            "petAge": "7",
+            "services": "wash",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/236x/3e/ba/70/3eba70b7600c637b789ba2f4917de26c.jpg",
+            "date": "2024-11-26",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "5am"
+          }
+        },
+        {
+          "id": 1732484356289,
+          "ownerId": "95f3",
+          "ownerName": "joel vens",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "ger",
+            "petAge": "7",
+            "services": "wash",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/236x/3e/ba/70/3eba70b7600c637b789ba2f4917de26c.jpg",
+            "date": "2024-11-26",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "5am"
+          }
+        },
+        {
+          "id": 1732484356289,
+          "ownerId": "95f3",
+          "ownerName": "joel vens",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "ger",
+            "petAge": "7",
+            "services": "wash",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/236x/3e/ba/70/3eba70b7600c637b789ba2f4917de26c.jpg",
+            "date": "2024-11-26",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "5am"
+          }
+        },
+        {
+          "id": 1732484356289,
+          "ownerId": "95f3",
+          "ownerName": "joel vens",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "ger",
+            "petAge": "7",
+            "services": "wash",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/236x/3e/ba/70/3eba70b7600c637b789ba2f4917de26c.jpg",
+            "date": "2024-11-26",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "5am"
+          }
+        },
+        {
+          "id": 1732523298942,
+          "ownerId": "95f3",
+          "ownerName": "joel vensa",
+          "groomerId": "1",
+          "groomerName": "Jane Smith",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "Luna",
+            "petAge": "4",
+            "services": "nail trimming",
+            "petImage": "https://i.pinimg.com/236x/8a/c6/0c/8ac60cbb2f3a2dd48587fc2dc5d15faa.jpg",
+            "date": "2024-11-26",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "6pm"
+          }
+        },
+        {
+          "id": 1732523298942,
+          "ownerId": "95f3",
+          "ownerName": "joel vensa",
+          "groomerId": "1",
+          "groomerName": "Jane Smith",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "Luna",
+            "petAge": "4",
+            "services": "nail trimming",
+            "petImage": "https://i.pinimg.com/236x/8a/c6/0c/8ac60cbb2f3a2dd48587fc2dc5d15faa.jpg",
+            "date": "2024-11-26",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "6pm"
+          }
+        }
+      ],
+      "profile_pic": "https://i.pinimg.com/enabled_lo_mid/236x/f5/88/ba/f588ba1a9c0b4a0c1bcf7c35e50e87d3.jpg",
+      "image": "https://i.pinimg.com/enabled_lo_mid/736x/f9/9d/48/f99d48920f66fd8195859a37cb9c029b.jpg"
+    },
+    {
+      "id": "d52e",
+      "name": "sammy",
+      "email": "sam@gmail.com",
+      "password": "12345",
+      "role": "owner",
+      "notifications": [
+        {
+          "id": 1732485481214,
+          "message": "Request sent to groomer dall wella.",
+          "read": false
+        },
+        {
+          "id": 1732485542007,
+          "message": "Your request has been accepted by dall wella. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732485627569,
+          "message": "Looking forward to meeting rella!",
+          "read": false
+        }
+      ],
+      "requests": [
+        {
+          "id": 1732485481161,
+          "ownerId": "d52e",
+          "ownerName": "sam",
+          "groomerId": "8298",
+          "groomerName": "dall wella",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "rella",
+            "petAge": "7",
+            "services": "trimming",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/236x/f5/88/ba/f588ba1a9c0b4a0c1bcf7c35e50e87d3.jpg",
+            "date": "2024-11-29",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "12 noon"
+          }
+        },
+        {
+          "id": 1732485481161,
+          "ownerId": "d52e",
+          "ownerName": "sam",
+          "groomerId": "8298",
+          "groomerName": "dall wella",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "rella",
+            "petAge": "7",
+            "services": "trimming",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/236x/f5/88/ba/f588ba1a9c0b4a0c1bcf7c35e50e87d3.jpg",
+            "date": "2024-11-29",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "12 noon"
+          }
+        }
+      ],
+      "profile_pic": "https://i.pinimg.com/enabled_lo_mid/236x/4e/68/a0/4e68a025e2373349bd1dc291a9b0acbc.jpg",
+      "image": "https://i.pinimg.com/236x/e1/ea/c4/e1eac4903e127a9918b95640b2f2875d.jpg"
+    },
+    {
+      "id": "695c",
+      "name": "leo",
+      "email": "leo@gmail.com",
+      "password": "12345",
+      "role": "owner",
+      "notifications": [
+        {
+          "id": 1732950107435,
+          "message": "Request sent to groomer Amanda william.",
+          "read": false
+        },
+        {
+          "id": 1732950139723,
+          "message": "Your request has been accepted by Amanda william. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732950195569,
+          "message": "Looking forward to meeting zola!",
+          "read": false
+        }
+      ],
+      "requests": [
+        {
+          "id": 1732950107381,
+          "ownerId": "695c",
+          "ownerName": "leo",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "zola",
+            "petAge": "4",
+            "services": "nail trimming",
+            "petImage": "https://i.pinimg.com/236x/ba/5c/35/ba5c35457d32ca14a8fbfb88a11872ff.jpg",
+            "date": "2024-11-30",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "8am"
+          }
+        },
+        {
+          "id": 1732950107381,
+          "ownerId": "695c",
+          "ownerName": "leo",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "zola",
+            "petAge": "4",
+            "services": "nail trimming",
+            "petImage": "https://i.pinimg.com/236x/ba/5c/35/ba5c35457d32ca14a8fbfb88a11872ff.jpg",
+            "date": "2024-11-30",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "8am"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0367",
+      "name": "ken",
+      "email": "ken@gmail.com",
+      "password": "12345",
+      "role": "owner",
+      "notifications": [
+        {
+          "id": 1732954113097,
+          "message": "Request sent to groomer dall wella.",
+          "read": false
+        },
+        {
+          "id": 1732954138732,
+          "message": "Your request has been accepted by dall wella. Please provide pet details.",
+          "read": false
+        },
+        {
+          "id": 1732954211556,
+          "message": "Looking forward to meeting Max!",
+          "read": false
+        }
+      ],
+      "requests": [
+        {
+          "id": 1732954113065,
+          "ownerId": "0367",
+          "ownerName": "ken",
+          "groomerId": "8298",
+          "groomerName": "dall wella",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "Max",
+            "petAge": "6",
+            "services": "hair brush and wash",
+            "petImage": "https://i.pinimg.com/236x/ba/5c/35/ba5c35457d32ca14a8fbfb88a11872ff.jpg",
+            "date": "2024-11-30",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "9am"
+          }
+        },
+        {
+          "id": 1732954113065,
+          "ownerId": "0367",
+          "ownerName": "ken",
+          "groomerId": "8298",
+          "groomerName": "dall wella",
+          "status": "details-submitted",
+          "petDetails": {
+            "petName": "Max",
+            "petAge": "6",
+            "services": "hair brush and wash",
+            "petImage": "https://i.pinimg.com/236x/ba/5c/35/ba5c35457d32ca14a8fbfb88a11872ff.jpg",
+            "date": "2024-11-30",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "9am"
+          }
+        }
+      ],
+      "image": "https://i.pinimg.com/474x/8a/ca/28/8aca285eddefdd3aeeffc86bf524b310.jpg"
+    }
+  ],
+  "groomers": [
+    {
+      "id": "1",
+      "name": "Jane Smith",
+      "email": "jane@gmail.com",
+      "password": "12345",
+      "role": "groomer",
+      "requests": [
+        {
+          "id": 201,
+          "ownerId": 1,
+          "ownerName": "John Doe",
+          "status": "accepted",
+          "petDetails": {
+            "petName": "b",
+            "petAge": "",
+            "services": "",
+            "petImage": "",
+            "date": "",
+            "appointmentType": ""
+          }
+        },
+        {
+          "id": 1732204872936,
+          "ownerId": "1",
+          "ownerName": "John Doe",
+          "status": "accepted",
+          "petDetails": {}
+        },
+        {
+          "id": 1732205513265,
+          "ownerId": "1",
+          "ownerName": "John Doe",
+          "status": "accepted",
+          "petDetails": {}
+        },
+        {
+          "id": 1732220817967,
+          "ownerId": "1",
+          "ownerName": "John Doe",
+          "status": "pending",
+          "petDetails": {}
+        },
+        {
+          "id": 1732230108580,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "1",
+          "groomerName": "Jane Smith",
+          "status": "pending",
+          "petDetails": {}
+        },
+        {
+          "id": 1732234764825,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "1",
+          "groomerName": "Jane Smith",
+          "status": "pending",
+          "petDetails": {}
+        },
+        {
+          "id": 1732262058152,
+          "ownerId": "1",
+          "ownerName": "John Doe",
+          "groomerId": "1",
+          "groomerName": "Jane Smith",
+          "status": "pending",
+          "petDetails": {}
+        },
+        {
+          "id": 1732523298942,
+          "ownerId": "95f3",
+          "ownerName": "joel vensa",
+          "groomerId": "1",
+          "groomerName": "Jane Smith",
+          "status": "accepted",
+          "petDetails": {
+            "petName": "Luna",
+            "petAge": "4",
+            "services": "nail trimming",
+            "petImage": "https://i.pinimg.com/236x/8a/c6/0c/8ac60cbb2f3a2dd48587fc2dc5d15faa.jpg",
+            "date": "2024-11-26",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "6pm"
+          }
+        }
+      ],
+      "notifications": [
+        {
+          "id": 301,
+          "message": "John Doe has submitted pet details for Buddy.",
+          "read": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mike Johnson",
+      "email": "mike@gmail.com",
+      "password": "12345",
+      "role": "groomer",
+      "requests": [
+        {
+          "id": 1732147139251,
+          "ownerId": "1",
+          "ownerName": "John Doe",
+          "status": "accepted",
+          "petDetails": null
+        },
+        {
+          "id": 1732210657626,
+          "ownerId": "1",
+          "ownerName": "John Doe",
+          "status": "pending",
+          "petDetails": {}
+        },
+        {
+          "id": 1732236868067,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "2",
+          "groomerName": "Mike Johnson",
+          "status": "accepted",
+          "petDetails": {}
+        },
+        {
+          "id": 1732237095021,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "2",
+          "groomerName": "Mike Johnson",
+          "status": "declined",
+          "petDetails": {}
+        },
+        {
+          "id": 1732251750271,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "2",
+          "groomerName": "Mike Johnson",
+          "status": "accepted",
+          "appointmentDetails": null
+        },
+        {
+          "id": 1732251896343,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "2",
+          "groomerName": "Mike Johnson",
+          "status": "accepted",
+          "appointmentDetails": null
+        },
+        {
+          "id": 1732436797293,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "2",
+          "groomerName": "Mike Johnson",
+          "status": "accepted",
+          "petDetails": {
+            "petName": "Luna",
+            "petAge": "3",
+            "services": "nail trimming",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/236x/b6/67/14/b667143861ed1542248dcf48b793ffc8.jpg",
+            "date": "2024-11-24",
+            "appointmentType": "indoor",
+            "address": "nairobi street",
+            "timeSlot": ""
+          }
+        }
+      ],
+      "notifications": [
+        {
+          "id": 301,
+          "message": "John Doe has submitted pet details for Buddy.",
+          "read": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Sarah Connor",
+      "email": "sarah@gmail.com",
+      "password": "12345",
+      "role": "groomer",
+      "requests": [
+        {
+          "id": 1732168057094,
+          "ownerId": "0875",
+          "ownerName": "Doe",
+          "status": "accepted",
+          "message": "Request for grooming: ",
+          "petDetails": {}
+        },
+        {
+          "ownerName": "John Doe",
+          "status": "accepted"
+        },
+        {
+          "ownerName": "John Doe",
+          "status": "accepted"
+        },
+        {
+          "id": 1732204741630,
+          "ownerId": "1",
+          "ownerName": "John Doe",
+          "status": "pending",
+          "petDetails": {}
+        },
+        {
+          "id": 1732229899877,
+          "groomerId": "3",
+          "groomerName": "Sarah Connor",
+          "status": "accepted",
+          "petDetails": {}
+        },
+        {
+          "id": 1732234774793,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "3",
+          "groomerName": "Sarah Connor",
+          "status": "accepted",
+          "appointmentDetails": null
+        },
+        {
+          "id": 1732237730549,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "3",
+          "groomerName": "Sarah Connor",
+          "status": "pending",
+          "petDetails": {}
+        },
+        {
+          "id": 1732253980541,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "3",
+          "groomerName": "Sarah Connor",
+          "status": "pending",
+          "appointmentDetails": null
+        },
+        {
+          "id": 1732255445167,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "3",
+          "groomerName": "Sarah Connor",
+          "status": "pending",
+          "petDetails": {}
+        },
+        {
+          "id": 1732255678656,
+          "ownerId": "2",
+          "ownerName": "Magg",
+          "groomerId": "3",
+          "groomerName": "Sarah Connor",
+          "status": "accepted",
+          "petDetails": {}
+        }
+      ],
+      "notifications": []
+    },
+    {
+      "id": "041a",
+      "name": "Amanda william",
+      "email": "amanda@gmail.com",
+      "password": "12345",
+      "role": "groomer",
+      "notifications": [],
+      "requests": [
+        {
+          "id": 1732442281987,
+          "ownerId": "95f3",
+          "ownerName": "joel vens",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "accepted",
+          "petDetails": {
+            "petName": "bengal",
+            "petAge": "4",
+            "services": "body wash",
+            "petImage": "https://i.pinimg.com/236x/ba/5c/35/ba5c35457d32ca14a8fbfb88a11872ff.jpg",
+            "date": "2024-11-25",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "12noon"
+          }
+        },
+        {
+          "id": 1732443305566,
+          "ownerId": "95f3",
+          "ownerName": "joel vens",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "accepted",
+          "petDetails": {
+            "petName": "zola",
+            "petAge": "2",
+            "services": "hair brush and wash",
+            "petImage": "https://i.pinimg.com/236x/8a/c6/0c/8ac60cbb2f3a2dd48587fc2dc5d15faa.jpg",
+            "date": "2024-11-26",
+            "appointmentType": "indoor",
+            "address": "webuye",
+            "timeSlot": ""
+          }
+        },
+        {
+          "id": 1732479656551,
+          "ownerId": "95f3",
+          "ownerName": "joel vens",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "accepted",
+          "petDetails": {
+            "petName": "shek",
+            "petAge": "6",
+            "services": "mediacal check up",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/736x/b2/e9/f4/b2e9f449c1c5f8a29e31cafb8671c8b2.jpg",
+            "date": "2024-11-25",
+            "appointmentType": "indoor",
+            "address": "0100",
+            "timeSlot": ""
+          }
+        },
+        {
+          "id": 1732484356289,
+          "ownerId": "95f3",
+          "ownerName": "joel vens",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "accepted",
+          "petDetails": {
+            "petName": "ger",
+            "petAge": "7",
+            "services": "wash",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/236x/3e/ba/70/3eba70b7600c637b789ba2f4917de26c.jpg",
+            "date": "2024-11-26",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "5am"
+          }
+        },
+        {
+          "id": 1732950107381,
+          "ownerId": "695c",
+          "ownerName": "leo",
+          "groomerId": "041a",
+          "groomerName": "Amanda william",
+          "status": "accepted",
+          "petDetails": {
+            "petName": "zola",
+            "petAge": "4",
+            "services": "nail trimming",
+            "petImage": "https://i.pinimg.com/236x/ba/5c/35/ba5c35457d32ca14a8fbfb88a11872ff.jpg",
+            "date": "2024-11-30",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "8am"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8298",
+      "name": "dall wella",
+      "email": "dal@gmail.com",
+      "password": "12345",
+      "role": "groomer",
+      "notifications": [],
+      "requests": [
+        {
+          "id": 1732485481161,
+          "ownerId": "d52e",
+          "ownerName": "sam",
+          "groomerId": "8298",
+          "groomerName": "dall wella",
+          "status": "accepted",
+          "petDetails": {
+            "petName": "rella",
+            "petAge": "7",
+            "services": "trimming",
+            "petImage": "https://i.pinimg.com/enabled_lo_mid/236x/f5/88/ba/f588ba1a9c0b4a0c1bcf7c35e50e87d3.jpg",
+            "date": "2024-11-29",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "12 noon"
+          }
+        },
+        {
+          "id": 1732954113065,
+          "ownerId": "0367",
+          "ownerName": "ken",
+          "groomerId": "8298",
+          "groomerName": "dall wella",
+          "status": "accepted",
+          "petDetails": {
+            "petName": "Max",
+            "petAge": "6",
+            "services": "hair brush and wash",
+            "petImage": "https://i.pinimg.com/236x/ba/5c/35/ba5c35457d32ca14a8fbfb88a11872ff.jpg",
+            "date": "2024-11-30",
+            "appointmentType": "shop",
+            "address": "",
+            "timeSlot": "9am"
+          }
+        }
+      ]
+    }
+  ]
+}

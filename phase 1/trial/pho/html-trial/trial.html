@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="rehab, patient tracking, healthcare, recovery">
+    <meta name="author" content="EMMACULATE MWIKALI"> 
+    <title>Rehab Patient Tracking System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <h1 class="text-center">Rehab Patient Tracking</h1>
+    <img src="image.jpg" alt="Image of the rehab" class="img-fluid mx-auto d-block">
+
+    <div class="search-container text-center mb-3">
+        <div class="input-group w-50 mx-auto">
+            <input type="text" id="searchInput" placeholder="Search patient by name" class="form-control" aria-label="Search patient by name">
+            <div class="input-group-append">
+                <button id="searchButton" class="btn btn-primary" type="button">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <main class="container d-flex justify-content-center">
+        <div class="form-container">
+            <h2>Patient Information</h2>
+            <form id="patientForm">
+                <div class="form-group">
+                    <label for="patientName">Patient Name:</label>
+                    <input type="text" id="patientName" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="guardianName">Guardian Name:</label>
+                    <input type="text" id="guardianName" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="stage">Stage:</label>
+                    <select id="stage" class="form-control" required>
+                        <option value="">Select Stage</option>
+                        <option value="1">Stage 1</option>
+                        <option value="2">Stage 2</option>
+                        <option value="3">Stage 3</option>
+                        <option value="4">Stage 4</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="progress">Progress:</label>
+                    <textarea id="progress" class="form-control" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="guardianPhone">Guardian Phone:</label>
+                    <input type="tel" id="guardianPhone" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="doctorEmail">Doctor Email:</label>
+                    <input type="email" id="doctorEmail" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="priority">Priority:</label>
+                    <select id="priority" class="form-control" required>
+                        <option value="">Select Priority</option>
+                        <option value="high">High</option>
+                        <option value="medium">Medium</option>
+                        <option value="low">Low</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <div class="sorting-options text-center mt-3">
+        <button id="sortByPriorityAsc" class="btn btn-secondary">Sort by Priority (Ascending)</button>
+        <button id="sortByPriorityDesc" class="btn btn-secondary">Sort by Priority (Descending)</button>
+    </div>
+    
+    <div id="patientList" class="mt-4"></div>
+
+    <footer class="text-center mt-4">
+        <p>&copy; 2023 Rehab Tracking System</p>
+        <p>Contact: [Your contact information]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
